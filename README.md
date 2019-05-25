@@ -1,4 +1,3 @@
-# brewfile
-homebrew backup
+# local_env
 
-`brew bundle` to reinstall everything
+build my local macOS environment fast
