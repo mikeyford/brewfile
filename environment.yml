@@ -1,0 +1,13 @@
+name: local
+
+channels:
+    - conda-forge
+    
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - jupyterlab
