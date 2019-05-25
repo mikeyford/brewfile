@@ -4,7 +4,9 @@
 !environment.yml
 !com.googlecode.iterm2.plist
 !.bash_profile
+
+!*/
 !emacs/init.el
-!emacs/elpa/*
-!emacs/themes/*
-!emacs/extras/*
+!emacs/elpa/**
+!emacs/themes/**
+!emacs/extras/**
