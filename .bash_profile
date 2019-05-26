@@ -11,5 +11,5 @@ get_conda_env() {
     echo $CONDA_DEFAULT_ENV
 }
  
-export PS1="\u@\h \[\033[96m\][\$(get_conda_env)] \[\033[33m\]\w\[\033[00m\]\[\033[91m\]\$(parse_git_branch)\[\033[00m\] \n$ "
+export PS1="\[\033[38;5;4m\]\u@\h \[\033[38;5;12m\][\$(get_conda_env)] \[\033[38;5;13m\]\w\[\033[00m\]\[\033[38;5;9m\]\$(parse_git_branch)\[\033[00m\] \n$ "
 
